@@ -1,0 +1,85 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+  font-family: Source Sans Pro;
+}
+
+.green {
+  background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+}
+
+#searchResults {
+  visibility: hidden;
+  font-size: 1.75rem;
+  color: #ffffffc9;
+}
+
+#searchResults a {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+#searchResults:hover > a {
+  opacity: 75%;
+  transition: .3s;
+  cursor: pointer;
+}
+
+#time {
+  visibility: hidden;
+}
+
+.main {
+  margin: 10rem 10rem;
+  text-align: center;
+  color: white;
+}
+
+.title {
+  font-size: 5rem;
+}
+
+.title:hover {
+  transition: .3s;
+  cursor: pointer;
+  opacity: .75;
+}
+
+#query {
+  border: none;
+  width: 40rem;
+  height: 3rem;
+  padding-left: 1rem;
+  color: #22458a;
+}
+
+.button {
+  background-color: #ffffff;
+  border: none;
+  color: #22458a;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  width: 10rem;
+  margin-left: 2rem;
+  border-radius: 0.5rem;
+  
+  padding: 0.5rem;
+  
+}
+
+.button:hover {
+  transition: .3s;
+  cursor: pointer;
+  opacity: .75;
+}
+
+#time {
+  text-align: center;
+  margin: auto;
+  color: #663785;
+  font-size: 3rem;
+}
